@@ -5,3 +5,7 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+$('.message a').click(function(){
+   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
