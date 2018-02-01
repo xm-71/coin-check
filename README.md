@@ -10,14 +10,11 @@ Frameworks |
 ------------ |
 Angular 1.6 |
 Angular Route |
-
-Angular 1.6
-Angular Route
-Bootstrap 4
-Firebase
-Font Awesome
-cryptocoins icon pack
-CoinMarketCap API
+Bootstrap 4 |
+Firebase |
+Font Awesome |
+cryptocoins icon pack |
+CoinMarketCap API|
 
 
 Installation
