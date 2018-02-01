@@ -6,7 +6,7 @@ A clean app that implements user registration, authentication, and routing.
 
 
 
-Frameworks |
+Frameworks Used |
 ------------ |
 Angular 1.6 |
 Angular Route |
