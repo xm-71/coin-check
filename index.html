@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="JS/script.js"></script>
+<script src="JS/angularroute.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="webfont/cryptocoins.css">
+<link rel="stylesheet" href="webfont/cryptocoins-colors.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body ng-app="myApp">
+
+  <nav class="navbar navbar-light bg-success">
+    <a class="navbar-brand" href="#">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i> CoinCheck</span>
+    </a>
+  </nav>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+    <a href="#">About</a>
+    <a href="#login">Login</a>
+    <a href="#price">Current Price</a>
+  </div>
+
+<div ng-view></div>
+
+
+
+</body>
+</html>

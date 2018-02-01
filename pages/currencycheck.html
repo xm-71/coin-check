@@ -1,0 +1,25 @@
+<div  ng-controller="customersCtrl">
+<br>
+  <div class="row">
+    <div class="col-sm-4 text-center" ng-repeat="x in myData">
+      <div class="card card-outline-success ">
+        <div class="card-block">
+          <i class="cc {{x.symbol}}" style="font-size: 60px;" title="{{x.symbol}}"></i>
+          <h3 class="card-title">{{x.name}}</h3>
+          <hr>
+          <p class="card-text">Current Price: $ {{x.price_usd}} </p>
+          <div class="text-center">
+          <div class="row">
+          <p class="col-sm-2 card-text col-centered">Change 1 hour: {{x.percent_change_1h}}%</p>
+          <p class="col-sm-2 card-text col-centered">Change 24 hours: {{x.percent_change_24h}}%</p>
+          <p class="col-sm-2 card-text col-centered">Change 7 Days: {{x.percent_change_7d}}%</p>
+          </div>
+          </div>
+          <br>
+          <div class="text-center">
+          <a href="https://www.coinbase.com/" class="btn btn-primary ">Buy</a>
+        </div>
+        </div>
+      </div>
+      <br>
+    </div>
