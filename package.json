@@ -1,0 +1,14 @@
+{
+  "name": "coin-check",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Crypto prices, favourites and trends. Static site — the app itself has no runtime dependencies.",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node test/smoke.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.1"
+  }
+}
