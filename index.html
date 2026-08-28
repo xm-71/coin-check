@@ -1,36 +1,19 @@
 <!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
-<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<script src="JS/script.js"></script>
-<script src="JS/angularroute.js"></script>
-<script src="JS/Trackersave.js"></script>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="webfont/cryptocoins.css">
-<link rel="stylesheet" href="webfont/cryptocoins-colors.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- connection to angular app-->
-<body ng-app="myApp">
-<!-- navbar Section -->
-  <nav class="navbar navbar-light bg-success">
-    <a class="navbar-brand">
-      <span style="font-size:25px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i> CoinCheck<i class="fas fa-check"></i></span>
-    </a>
-  </nav>
-<!-- sidenav-->
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
-    <a href="#"><i class="fas fa-home"></i>Home</a>
-    <a href="#!login"><i class="fas fa-sign-in-alt"></i>  Login</a>
-    <a href="#!price"><i class="fas fa-money-bill-alt"></i>  Current Price</a>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoinCheck</title>
+  <meta name="description" content="Check crypto prices, star favourites and follow trends over time.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2214%22%20fill%3D%22%2312a05c%22%2F%3E%3Cpath%20d%3D%22M10%2016.5l4%204%208-9%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E">
+  <link rel="preconnect" href="https://api.coingecko.com">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <div id="app" class="app">
+    <div class="boot">Loading CoinCheck…</div>
   </div>
-<!-- ng-view -->
-  <div ng-view></div>
-
-  <!-- Footer -->
-    <div class="footer">CoinCheck <i class="fas fa-copyright"></i> 2018 alexcannon.me</div>
+  <noscript>CoinCheck needs JavaScript enabled.</noscript>
 </body>
 </html>
